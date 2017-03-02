@@ -1,6 +1,6 @@
 {
   "name": "postcss-normalize",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "description": "PostCSS plugin that automatically applies normalize.css",
   "keywords": [
     "postcss",
@@ -11,10 +11,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seaneking/postcss-normalize.git"
+    "url": "https://github.com/OFFLINE-GmbH/postcss-normalize"
   },
   "author": "Sean King <sean@simpla.io>",
   "maintainers": [
+    {
+      "name": "Tobias Kuendig",
+      "email": "tobias@offline.swiss",
+      "web": "https://offline.swiss"
+    },
     {
       "name": "Sean King",
       "email": "sean@simpla.io",
@@ -22,12 +27,12 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/seaneking/postcss-normalize/issues"
+    "url": "https://github.com/OFFLINE-GmbH/postcss-normalize/issues"
   },
-  "homepage": "https://github.com/seaneking/postcss-normalize",
+  "homepage": "https://github.com/OFFLINE-GmbH/postcss-normalize",
   "dependencies": {
     "clean-css": "^3.3.9",
-    "normalize.css": "^4.0.0",
+    "normalize.css": "^5.0.0",
     "postcss": "^5.0.0"
   },
   "devDependencies": {
